@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  max-width:400px;
+  height:10vh auto 0 auto;
+  box-shadow:16px 10px 10px.43px #000000;
+}
+.display{
+  text-align:right;
+  height:100px;
+  line-height:70px;
+  padding:8px 16px;
+  font-size:25px;
+}
+.buttons{
+  display:grid;
+  border-bottom:1px solid #222837;
+  border-left: 1px solid #222837;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.button{
+  text-align: center;
+  line-height:80px;
+  height:80px;
+  font-size:27px;
+  border:0.5px solid black;
+  transition: width 6s;
+  
+}
+.buttons :hover{
+  background:#000000;
+  color:white;
+ 
+}
+#eq{
+  background:#102329;
+  color:white;
+  font-size:30px;
+}
